@@ -1,0 +1,72 @@
+##Electronics Lesson 5 - Doorbell
+
+###Overview  
+In this lesson we learn the programming and wiring for a button and a buzzer. Students will then create a doorbell using a button, a buzzer and a led.  
+
+###Plan  
+0. How does a button/doorbell work?  
+1. Learn digitalRead  
+2. Learn if statements  
+3. Learn tone & noTone  
+4. Doorbell Coding Activity  
+5. Learn button & +5 voltage  
+6. Learn buzzer  
+7. Doorbell Wiring Activity  
+
+####Concept 1: How does a button/doorbell work?  
+A simple way to think of a button is that it switches between an open or close circuit. This can be done by just closing or opening a wire in the circuit. *If we want to do more complex task in CODE we have to READ the value of the button then do the action.* ie. if we press right arrow then the cursor should move right, if press the power button then my computer/tv should turn on.  
+
+####Concept 1.1: What does a doorbell have?  
+A light and a buzzer.  
+
+####Concept 2: digitalRead  
+[digitalRead Reference](https://www.arduino.cc/en/Reference/DigitalRead)  
+digitalRead is a function that reads a pin and return HIGH or LOW  
+
+code:  
+`buttonState = digitalRead(buttonPin);`
+
+**students:**  
+if there is electricity at this hole in the breadboard then what should digitalRead return? If there is no electricity?  
+
+####Concept 3: if statements  
+[if statement reference](https://www.arduino.cc/en/Reference/Else)  
+If statements allow you do actions base on a valid condition. ie. If I put a quarter into the vending machine then I get a cookie. If I get a 100 on an exam then I get bubble tea else do push ups.  
+
+**who here has to do some kind of chore?**
+
+**ask if your parents ask you clean your room you get bubble tea else you get yelled at**
+
+code:  
+`if(100 on exam) {`  
+`getBubbleTea();`  
+`} else {`  
+`doPushUps();`  
+`}`  
+
+**students:**  
+can anyone give me examples of if statements in real life? Act out an example: if lights off then close eyes else open eyes.  
+
+####Concept 4: tone & noTone  
+[tone reference](https://www.arduino.cc/en/Reference/Tone)  
+In doorbell there's a buzzer. To create sound use `tone` and stop the sound use `noTone`.  
+
+####Activity 1: Doorbell Code  
+Students will work on a fill in the blank worksheet. Assistants/Instructor will help out if needed.  
+![doorbell code](file:///Users/Alan/Desktop/Screen%20Shot%202017-07-25%20at%2011.47.14%20PM.png)
+
+####Concept 5: Button Wiring  
+[Button Code & Wiring Reference](https://www.arduino.cc/en/Tutorial/Button)  
+![button wiring](file:///Users/Alan/Desktop/button.jpg)  
+
+5 Volts
+Resistor for reading low value
+
+####Concept 5: Buzzer Wiring  
+[Buzzer Code & Wiring Reference](http://www.instructables.com/id/How-to-use-a-Buzzer-Arduino-Tutorial/)  
+![buzzer wiring](file:///Users/Alan/Desktop/buzzer.jpg)  
+
+###Activity 2: Doorbell Wiring  
+[Button Youtube Tutorial](https://www.youtube.com/watch?v=ksNbEuhO4fU)  <- Very Good!!!  
+There are many ways to wire a doorbell, here's one of them.  
+![doorbell](file:///Users/Alan/Desktop/doorbell.png)

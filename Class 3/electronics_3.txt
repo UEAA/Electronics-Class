@@ -1,0 +1,95 @@
+##Robotics/Electronics Lesson 3  
+
+###Overview
+In this lesson we will learn how to code a blinking led. Then students will create a traffic light using what we learned so far. We will also learn how to code and wire a button.  
+
+###Plan  
+1. Assistants will review concepts from the previous lesson  
+2. Hand out code from previous lesson  
+3. Blinking light activity  
+4. Traffic light activity  
+5. Button activity  
+
+***
+
+####Activity 1: Review lesson 2
+**JOCYE**  
+**Led**  
+1. Draw only the led on the board.  
+![led2](led2.png)
+2. In a led electron flow one way. Take out an led from the kit.  
+3. To the class: *Which way does the electrons flow? From the long leg or the short leg?*  
+3. **Electron flow from the long leg to the short leg.**  
+  
+**XIAOLIN**  
+**Jumper Wire**  
+1. Draw a battery on top of led.  
+2. To the class: *To connect the battery to the lead what do we need?*  
+3. **We need jumper wires.** Show the class a jumper wire.  
+4. Connect wires from the battery to the led on the board.  
+
+**Resistor**  
+1. To the class: *If an led gets electrons too fast what will happen to it?*  
+2. **It will burn out**  
+3. To the class: *To reduce the speed of the electrons what do we need?*  
+4. **We need a resistor to slow down the electrons.** Show the class a resistor.  
+5. Draw a resistor on the board  
+
+**JACKIE**  
+   
+**Breadboard**  
+1. Draw the breadboard on the board  
+2. Show the breadboard to the class  
+2. To the class: *Why do we need a breadboard?*   
+3. **To create circuits and makes it easier so we don't need to tie wires together**   
+4. To the class: *What happens if I put a wire on **row 1 column 1**? What holes get electricity?*  
+5. **The entire first row**
+![breadboard](breadboard.png)
+6. To the class: *What happens if I put a wire on **row 3 column 1**? What holes get electricity?*  
+7. **Column 1 and Rows 3-7**  
+8. To the class: *What happens if I put a wire on **row 8 column 2**? What holes get electricity?*  
+9. **Column 2 and Rows 8-12**  
+
+***
+
+**Activity 2: Blinking Light**  
+1. **Give examples in the real world that blink/flash**  
+	- Car light's that's blinking when making a turn  
+	- Walk light blinking  
+	- Police lights blinking  
+2. **Students: Why is blinking important?**  
+	- It acts as communication. For example a walk light blinking is telling you to hurry up. A charger blinking is telling you it's running out of battery.  
+	- Everything around you is communicating something.  
+3. **Students: How does it work?**   
+    - It turns on and off the switch in a circuit  
+4. **Demonstrate by turning off and on the light in the class room**  
+5. **Students: What does it being done between turning on and off**  
+	- Time is passing  
+6. **Teach milliseconds. 1000 milliseconds are in a 1 second**  
+	- How many millis in .5, 2, 2.75 seconds?  
+7. **Introduce the **delay(1000);** function**  
+
+
+**Blinking Light Code**  
+*Students will be required to write the code below on a piece of paper*  
+![blink code](Screen%20Shot%202017-07-05%20at%2010.35.56%20PM.png)
+
+***
+
+**Activity 3: Traffic Light**  
+*Given what they have learned so far, students will be required to work together to write code to create a traffic light and then wire it on the board*  
+**Easy code**  
+![traffic code easy](Screen%20Shot%202017-07-05%20at%2010.46.10%20PM.png)
+**Complex code with for loop**  
+![traffic code hard](Screen%20Shot%202017-07-05%20at%2010.44.35%20PM.png)  
+Wiring: wire three jumper wires from the pins into the three led with resistors on the board. Then connect the led to a row that it is connected to ground.  
+
+***
+
+**Activity 4: Push button**  
+1. DigitalRead read inputs and check for HIGH or LOW.  
+2. If statements are conditions. If I give you money you give water.  
+**Code for button**  
+![button code](Screen%20Shot%202017-07-05%20at%2010.51.00%20PM.png)  
+**Wiring for button**  
+![button wire](Screen%20Shot%202017-07-05%20at%2010.53.39%20PM.png)  

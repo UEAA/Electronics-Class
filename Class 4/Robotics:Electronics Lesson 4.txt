@@ -1,0 +1,53 @@
+##Robotics/Electronics Lesson 4  
+
+###Overview
+In this lesson we will learn the code and wiring for a traffic light. If time permits we will learn for loops.
+
+###Plan  
+1. Assistants will review concepts from the previous lesson  
+2. Hand out traffic light code worksheet  
+3. Students will complete the worksheet  
+4. Assistants will go over worksheet with students on the board  
+5. Students will wire a traffic light  
+  
+####Activity 1: Review lesson 3  
+**XIAOLIN & JACKIE**  
+**Blinking Led**    
+1. **Students: Give examples in the real world that blink/flash**  
+	- Car light's that's blinking when making a turn  
+	- Walk light blinking  
+	- Police lights blinking  
+2. **Students: Why is blinking important?**  
+	- It acts as communication. For example a walk light blinking is telling you to hurry up. A charger blinking is telling you it's running out of battery.  
+	- Everything around you is communicating something.  
+4. Draw a circuit on the board with led, wires and battery  
+5. **Students: How does it work?**   
+    - Show that blinking is done by turning on and off electricity. Turn off electricity by showing a open circuit. Turn on electricity by showing a closed circuit. Ask students what type of circuit it is when demonstrating.  
+6. **Students: What does it being done between turning on and off**  
+	- Time is passing  
+7. **Students: What is the function in code to wait for time?**  
+	- delay(1000);  
+8. **Students: What does the delay function take?**  
+	- milliseconds  
+9. **Students: Test seconds/milliseconds**  
+	- how many milliseconds are in .5, 1, 5 seconds?  
+	- how many seconds is 2000, 5500, 200 milliseconds?  
+
+***  
+
+####Activity 2: Traffic Light  
+**WORKSHEET**
+![traffic light worksheet](file:///Users/Alan/Desktop/Screen%20Shot%202017-07-17%20at%2011.28.02%20PM.png)  
+**ANSWER**
+![traffic light ans](file:///Users/Alan/Desktop/Screen%20Shot%202017-07-17%20at%2011.25.37%20PM.png)  
+
+***  
+
+####Activity 3: Traffic Light Review  
+**XIAOLIN, JACKIE, JOYCE** will review the worksheet  
+
+***  
+
+####Activity 4: Traffic Light Wiring  
+Students will wire the traffic light base on the code from the worksheet. Assistants and instructor will go around assisting students when needed.  
+

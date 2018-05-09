@@ -1,0 +1,50 @@
+##Robotics/Electronics Lesson 6  
+
+###Overview  
+In this lesson students will lean to create a controllable robotic arm while drinking bubble tea (*hopefully).  
+
+###Plan  
+1. Analog vs Digital  
+2. Servo  
+3. Potentiometer  
+4. Robotic Arm Code  
+5. Robotic Arm Design  
+6. Robotic Arm Wiring  
+7. Electronics led sign
+
+####Analog vs Digital  
+[Reference Link](http://www.dummies.com/programming/electronics/the-difference-between-analog-and-digital-electronics/)  
+Analog is measured.  
+Digital is counted.  
+
+Example: Cake recipe requires 2 cups of flour (analog since you aren't getting exactly 2 cups) and 2 eggs (digital since it's exactly 2).
+
+####Servo   
+**HUDDLE**  
+Students: Where are motors used? ie. cars, robots, planes  
+
+Servos moves 180 degrees.  
+
+![sevo](file:///Users/Alan/Documents/UEAA%20Electronics%202017/Images/servo.png)  
+
+####Potentiometer  
+Potentiometer is an adjustable resistor. As you turn the knob it will increase or decrease the resistance which then can be measured.  
+
+![Potentiometer](file:///Users/Alan/Documents/UEAA%20Electronics%202017/Images/potentiometer.png)
+
+####Robotic Arm Code  
+[Coding Tutorial Link](https://www.arduino.cc/en/Tutorial/Knob)  
+A robotic arm requires the potentiometer and servo. Potentiometer will return a value that will adjust the rotation of the servo.  
+![robotic arm code](file:///Users/Alan/Documents/UEAA%20Electronics%202017/Images/robotic%20arm%20code.png)  
+
+####Robotic Arm Design  
+Students will create a mini robotic arm out of paper or cardboard and tape.  
+
+####Robotic Arm Wiring  
+[Wiring Youtube Tutorial Link](https://www.youtube.com/watch?v=8-w_8izUO38)
+![robotic arm wiring](file:///Users/Alan/Documents/UEAA%20Electronics%202017/Images/robotic%20arm%20circuit.jpg)
+
+####Electronics led sign  
+The last part of the class we will have the students and assistants create an led sign with the word electronics and light it up with the lights turned off!!!  
+
+*Give out contact information and end the class with a speech (assistants and instructors)*  
