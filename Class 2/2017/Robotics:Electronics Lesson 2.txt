@@ -31,7 +31,7 @@ In this lesson we will learn we learn how to wire a led and write code to make i
 ![wire](jumperwire.jpg)  
 
 ####The Resistor  
-*A battery generates lots of electric current which can burn a led. The purpose of the resistor is to limit the current. Wood is a bad conductor of electricity and goal is a good conductor of electricity. A high resistor will light the light.*  
+*A battery generates lots of electric current which can burn a led. The purpose of the resistor is to limit the current. Wood is a bad conductor of electricity and gold is a good conductor of electricity. A high resistor will light the light.*  
 1. Show the resistor in the kit  
 2. Give examples of high (gold) and low resistors (wood)  
 3. There are different levels of resistors which are controlled by insulators (analogy would be the amount of wood)  
