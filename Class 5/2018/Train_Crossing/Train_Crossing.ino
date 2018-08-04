@@ -11,7 +11,7 @@
 
 Servo myservo;  // create servo object to control a servo
 
-int potpin = 0;  // analog pin used to connect the potentiometer
+int potpin = 0;  // analog pin A0 used to connect the potentiometer
 int val;    // variable to read the value from the analog pin
 
 const int green =  7;      // the number of the LED pin for green LED
